@@ -1,0 +1,668 @@
+.header-social a{
+    text-decoration: none;
+    color: white !important;
+}
+#linkes{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    padding: 15px 15px 0;
+}
+.header-social a{
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 13px;
+    transition: 0.5s;
+}
+.header-social a:hover{
+    border-radius: 50%;
+    background: #b01ba5;
+}
+.header-social p{
+    display: inline-block;
+    color: #9190a5;
+    font-size: 16px;
+    padding-top: 4px;
+    line-height: 1.6;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.header-wrap{
+    max-width: 1496px;
+    margin: 0 auto;
+}
+#linkes{
+    background: url('https://themewagon.github.io/endgame/img/slider-bg-1.jpg');
+    height: 921px;
+    border-bottom: 2px solid #b01ba5;;
+}
+.user-panel{
+    float: right;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+.user-panel a {
+	color: #fff;
+    text-decoration: none;
+}
+.user-panel a:hover {
+	color: #b01ba5;
+}
+.top-nav-area ul li{
+    list-style: none;
+    display: flex;
+}
+.main-menu{
+    list-style: none;
+    text-align: center;
+    padding-top: 3px;
+}
+.main-menu li{
+    display: block;
+    font-size: 16px;
+    font-weight:500;
+    color: #fff;
+    margin-right: 40px;
+    padding-bottom: 28px;
+    position: relative;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+.main-menu li:hover{
+    color: #b01ba5;
+    cursor: pointer;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.header-bar-wrap {
+    background: #081624;
+    height: 94px;
+    padding: 39px 40px 0;
+    box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
+    box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
+}
+.heading h2{
+    font-size: 160px;
+    color: #fff;
+}
+.heading{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 180px;
+    p{
+        align-items: center;
+        text-align: center;
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.4);
+        font-weight: 500;
+        opacity: 0.39;
+        margin-bottom: 70px;
+        position: relative;
+        opacity: 1;
+    }
+}
+.button img{
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    padding-left: 170vh;
+    position: relative;
+    top: -180px;
+}
+.site-btn {
+    display:inline-block;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    min-width: 186px;
+    padding: 24px 30px;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: #081624;
+    line-height: normal;
+    cursor: pointer;
+    text-align: center;
+    background: #b01ba5;
+    position: relative;
+    z-index: 999;
+    top: 0;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.site-btn img {
+    max-width: 100%;
+    position: relative;
+    left: 13px;
+    width: auto !important;
+    display: inline-block !important;
+}
+.site-btn:before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 9px;
+    top: 10px;
+    background: white;
+    z-index: -2;
+    box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
+    box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
+}
+.number{
+    display: flex;
+    margin-left:300px;
+}
+.number p{
+    color: #fff;
+    padding: 20px;
+}   
+.number .p1{
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid#b01ba5;
+    padding: 20px;
+}
+.number .p1:hover{
+    background:#b01ba5;
+}
+#intro{
+    top:921px;
+    position: absolute;
+    height:544px;
+    width: 100%;
+    background: #0c062e;
+    padding: 115px 0;
+}
+#intro .num-1{
+    color: #fff;
+    font: 18px Roboto,sans-serif;  
+    span{
+        color: #b01ba5;
+    }
+    a{
+        font-weight: 550;
+    }
+    h3{
+        max-width: 370px;
+        font-size: 30px;
+        font-weight: 500;
+        margin: 0;
+        line-height: 1.2;
+        margin-top: 20px;
+    }
+    p{
+        margin-top: 30px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #68647d;
+        margin-bottom: 35px;
+        line-height: 1.6;
+    }
+}
+.read-more{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+    background-color: transparent;
+    img{
+        margin-left: 10px;
+    }
+}
+.read-more:hover{
+    cursor: pointer;
+}
+#blog{
+    position: absolute;
+    top: 1465px;
+    height: 1624.3px;
+    width: 100%;
+    background: linear-gradient(45deg, #501755 0%, #2d1854 100%);
+    .heading h2{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-style: italic;
+        text-align: left;
+    }
+    .first-ul{
+        display: flex;
+        margin-top: 30px;
+        align-items: start;
+        justify-content: left;
+        color: #fff;
+    }
+    .first-ul li{
+        list-style: none;
+        display: block;
+        color: #fff;
+        padding: 16px 36px;
+        font-size: 16px;
+        font-weight: 700;
+        background: #6f2b95;
+        line-height: 1.1;
+        margin-right: 7px;
+        transition: all 0.3s;
+        transition: all 0.3s;
+        transition: all 0.3s;
+        margin-bottom: 10px;
+    }
+}
+.thumbnail{
+    margin-top: 86px;
+}
+.blog-image{
+    width: 362px;
+    float: left;
+    margin-right: 30px;
+    img{
+        max-width: 100%;
+        vertical-align: middle;
+        border-style: none;
+    }
+}
+#blog .blog-text{
+    overflow: hidden;
+    color: #fff;
+    font: 18px Roboto,sans-serif;  
+    .blow{
+        font-weight: 550;
+    }
+    .game{
+        color: #b01ba5;
+        text-decoration: none;
+    }
+    a{
+        font-weight: 550;
+    }
+    h3{
+        margin-bottom: 40px;
+        max-width: 370px;
+        font-size: 30px;
+        font-weight: 500;
+        margin: 0;
+        line-height: 1.2;
+        margin-top: 20px;
+    }
+    p{
+        margin-top: 45px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #68647d;
+        margin-bottom: 70px;
+        line-height: 1.6;
+    }
+}
+.sidebar{
+    font-family: 'Roboto', sans-serif;
+    padding: 180px 0px 0px;
+}
+.sidebar .inner-wrapper{
+    .widget-item{
+       color: #fff;
+    .trend{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-style: italic;
+        margin-bottom: 48px;
+    }
+    }
+}
+.item{
+    margin-bottom: 38px;
+}
+.item .pic{
+    float: left;
+    margin-right: 17px;
+    overflow: hidden;
+}
+.blow1{
+    color: #68647d;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 7px;
+    a{
+        text-decoration: none;
+        color: #b01ba5;
+    }
+}
+.pictext{
+    h5{
+        font-size: 18px;
+        color: #fff;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+}
+.catagory{
+    background: #34164b;
+    padding: 55px 0 25px;
+    .sec-ul{
+        list-style: none;
+        padding: 0 38px;
+       li a{
+        display: inline-block;
+        position: relative;
+        font-size: 16px;
+        color: #68647d;
+        font-weight: 500;
+        margin-bottom: 15px;
+        padding-right: 19px;
+        transition: all 0.2s;
+        transition: all 0.2s;
+        transition: all 0.2s;
+        background-image: url('https://themewagon.github.io/endgame/img/icons/double-arrow.png');
+        background-repeat: no-repeat;
+        background-position: right -120% center;
+        background-size: 11px;
+       }
+    }
+}
+.catagory ul li a:hover {
+	color: #b01ba5;
+	background-position: right center;
+    cursor: pointer;
+}
+.cata{
+    font-style: italic;
+    font-size: 24px;
+    padding-left: 38px;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+.poster{
+    margin-bottom: 0;
+    height: 326.91px;
+    vertical-align: middle;
+    border-style: none;
+}
+.widget-item{
+    margin-bottom: 85px;
+    width: 264px;
+}
+.vdo-bg{
+    background: url('https://themewagon.github.io/endgame/img/promo-bg.jpg');
+    background-size: cover;
+    width:100%;
+    top: 3089.3px;
+    height: 757px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.video-play-btn {
+    position: absolute;
+    left: calc(50% - 61px);
+    top: calc(50% - 61px);
+    width: 122px;
+    height: 122px;
+    text-align: center;
+    padding-top: 35px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.16);
+}
+.vdo-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top:550px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.vdo-text{
+    margin-bottom: 80px;
+    padding: 27px 0;
+    padding-left: 25px;
+    position: relative;
+    color: #fff;
+    h2{
+        font-size: 48px;
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 1px;
+    }
+    p{
+        font-size: 18px;
+        color: #a3a1b3;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+}
+.vdo-text::after{
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 100%;
+    left: -22px;
+    top: 0;
+    border-left: 3px solid #de46d6;
+    background: #fff;
+    -webkit-box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.5);
+    box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.5);
+}
+.featured-bg{
+    background: url('https://themewagon.github.io/endgame/img/featured-bg.jpg') no-repeat;
+    top:3846.3px;
+    height: 647.97px;
+    width: calc(50% - 156px);
+    float: left;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.feature .featured-box{
+    top: 3846.3px;
+    height: 647.97px;
+    position: relative;
+    float: right;
+    width: calc(50% + 156px);
+    background: #fff;
+    padding: 100px 50px 130px 79px;
+    .text-box{
+        max-width: 810px;
+    h3{
+        margin: 0;
+        color: #111111;
+        font-weight: 500;
+        line-height: 1.2;
+        font-size: 60px;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    p{
+        font-size: 15px;
+        font-weight: 500;
+        color: #68647d;
+        margin-bottom: 35px;
+        line-height: 1.6;
+    }
+    .read-more{
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-style: italic;
+        color: #251e2f;
+    }
+    }
+    .top-title{
+        color: #68647d;
+        font-size: 18px;
+        font-weight: 550;
+        margin-bottom: 20px;
+        font-family: 'Roboto', sans-serif;
+        a{
+            text-decoration: none;
+            color: #b01ba5;
+        }
+    }
+}
+.last{
+    background: linear-gradient(to right, #3e0f3d 0%, #1c0f3b 100%);
+    top: 4494.27px;
+    height: 398.59px;
+    position: absolute;
+    /* width: 100vw; */
+    width:100%;
+    color: #fff;
+    text-align: center;
+    padding: 108px 0 95px;
+    h2{
+        font-size: 48px;
+        font-weight: 700;
+        font-style: italic;
+        text-transform: uppercase;
+        margin-bottom: 73px;
+    }
+    input{
+        width:787px;
+    }
+}
+.newform{
+    padding-left: 56px;
+    input{
+        font-size: 14px;
+        font-weight: 700;
+        font-style: italic;
+        color: #fff;
+        width: 787px;
+        outline: 0;
+        border: none;
+        border-bottom: 2px solid #9b91a6;
+        background: none;
+        height: 63px;
+        margin-right: 26px;
+    }
+}
+.newform input::placeholder{
+    color: #fff;
+}
+.footer{
+    text-align: center;
+    top:4892.86px;
+    height:345px;
+    width: 100%;
+    background: linear-gradient(to right, #330d38 0%, #190d36 100%); 
+    position: absolute;
+    .container{
+        position: relative;
+        padding: 60px 15px 25px;
+    }
+}
+.footer .pic-1{
+    img{
+        /* vertical-align: middle;
+        border-style: none;
+        max-width: 100%; */ 
+        top: -15px;
+        position: absolute;
+        left: -13px;
+        bottom: 19px;    
+    }
+}
+.footer .pic-2{
+    img{
+        top: -50px;
+        position: absolute;
+        right: 50px;
+        bottom: 19px;
+    }
+}
+.footer-menu {
+	padding-top: 62px;
+}
+
+.footer-menu li:last-child a {
+	margin-right: 0;
+}
+.footer ul{
+    justify-content: center;
+    display: flex;
+	padding-top: 50px;
+	margin-left: 80px;
+    li a{
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        margin-right: 40px;
+        padding-bottom: 28px;
+        position: relative;
+        padding-right: 20px;
+    }
+}
+.main-menu li a::after{
+    position: absolute;
+	content: "";
+	width: 20px;
+	height: 20px;
+	right: 0;
+	top: 5px;
+	background-image: url("https://themewagon.github.io/endgame/img/icons/arrow-down.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.main-menu li a:hover:after{
+    background-image: url("https://themewagon.github.io/endgame/img/icons/arrow-down-color.png");
+}
+.footer .footer-menu li a:hover{
+    color: #b01ba5;
+}
+.footer-social{
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.footer-social a{
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 13px;
+    transition: 0.5s;
+}
+.footer-social a:hover{
+    border-radius: 50%;
+    background: #b01ba5;
+}
+.copyright{
+    font-size: 12px;
+    font-weight: 500;
+    color: #9190a5;
+    opacity: 0.20;
+    a{
+        text-decoration: none;
+        color: #9190a5;
+    }
+}
+.copyright a:hover{
+    text-decoration: underline;
+}
